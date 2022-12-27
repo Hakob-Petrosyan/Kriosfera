@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bee5017a-550d-4ea6-b30f-6bd4b60fc072" name="kriosfera">
+        <fileTransfer rootFolder="/home/c65236/kriosfera.na4u.ru/www" accessType="SFTP" host="91.201.52.204" port="22" sshConfigId="2362bb1a-0f78-4419-add8-71081dad45b2" sshConfig="c65236@91.201.52.204:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
