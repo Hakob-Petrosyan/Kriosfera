@@ -167,15 +167,13 @@ if (change_history){
 
 let catalogCcategory = document.querySelectorAll('.catalog-category');
 if(catalogCcategory){
-    function openCotalogCategory(e){
-        let eventsCotalogCategory = e.target.closest('.catalog-category');
-        let catalogCategory_header = eventsCotalogCategory.querySelector('.catalog-category_header');
-        eventsCotalogCategory.classList.toggle('catalog-category-opend');
-        catalogCategory_header.classList.toggle('catalog-category_header-opend')
+    function openCatalogCategory(e){
+        let eventsCatalogCategory = e.target.closest('.catalog-category');
+        eventsCatalogCategory.classList.toggle('catalog-category-opened');
     }
 
     for (let i = 0; i <catalogCcategory.length ; i++) {
-        catalogCcategory[i].addEventListener('click', openCotalogCategory);
+        catalogCcategory[i].addEventListener('click', openCatalogCategory);
     }
 }
 
